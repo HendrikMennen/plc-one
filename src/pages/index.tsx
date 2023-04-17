@@ -16,12 +16,12 @@ export default function Home() {
 
         <div className='flex'>
           <div className='flex flex-column items-center m-auto flex-wrap'>
-            <div style={{ marginRight: "-100px" }} className='text-4xl whitespace-nowrap md:mt-20'>
+            <div style={{ marginRight: "-100px" }} className='text-5xl whitespace-nowrap md:mt-20'>
               Get Ready for<br />
               a <span className='font-bold'>new Chapter</span> in<br />
               Industrial Automation<br />
             </div>
-            <Image style={{ marginRight: "-100px" }} src={"/PLC_G.png"} alt='PLC Logo' width={600} height={200} />
+            <Image style={{ marginRight: "-100px" }} src={"/PLC_G.png"} alt='PLC Logo' width={800} height={200} />
           </div>
         </div>
 
@@ -39,8 +39,6 @@ export default function Home() {
             <div className='mt-2 text-xl text-stone-400'>FASTER</div>
           </div>
         </div>
-
-        <AiOutlineDownCircle className='m-auto mt-28 h-10 w-10 text-stone-200' />
 
         <div>
           <Image className='m-auto' alt="PLC ONE CASE" src={"/Case.png"} width={1100} height={600} />
@@ -73,17 +71,17 @@ export default function Home() {
           <h2 className='text-3xl font-bold mt-10'>We Only Have One Earth</h2>
           <div className='md:grid md:grid-cols-3 gap-3 text-center mt-10'>
             <div>
-              <Image className='m-auto mt-10 md:mt-0' src={"/Minimalism.png"} alt="Minimalism" height={200} width={200} />
+              <Image className='m-auto mt-10 md:mt-0' src={"/Minimalism.png"} alt="Minimalism" height={160} width={160} />
               <h2 className='font-bold text-2xl'>Minimalism is More than you Need</h2>
               <span>With only one chip and power supply, you need less electronics for more performance</span>
             </div>
             <div>
-              <Image className='m-auto mt-10 md:mt-0' src={"/Modular.png"} alt="Modular" height={200} width={200} />
+              <Image className='m-auto mt-10 md:mt-0' src={"/Modular.png"} alt="Modular" height={160} width={160} />
               <h2 className='font-bold text-2xl'>Fully Modular</h2>
               <span>Only replace what is necessary with the modular PCBs</span>
             </div>
             <div>
-              <Image className='m-auto mt-10 md:mt-0' src={"/Energy.png"} alt="Energy" height={200} width={200} />
+              <Image className='m-auto mt-10 md:mt-0' src={"/Energy.png"} alt="Energy" height={160} width={160} />
               <h2 className='font-bold text-2xl'>Less Electronics for the Best Energy Efficiency</h2>
               <span>Run your whole industrial plant
                 with the energy of just one small battery pack</span>
