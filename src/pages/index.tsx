@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import { AiOutlineDownCircle } from 'react-icons/ai';
 import { RiPlantLine } from 'react-icons/ri';
 import { TfiWorld } from 'react-icons/tfi';
+import Link from 'next/link';
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -34,7 +35,7 @@ export default function Home() {
           </div>
           <div>
             <div className='font-bold text-3xl md:text-6xl'>10×</div>
-            <div className='mt-2 text-xl text-stone-400 md:text-3xl'>VALUE*</div>
+            <div className='mt-2 text-xl text-stone-400 md:text-3xl'>CHEAPER*</div>
           </div>
           <div>
             <div className='font-bold text-3xl md:text-6xl'>1 MIO×</div>
@@ -73,7 +74,7 @@ export default function Home() {
           <div className='md:grid md:grid-cols-3 gap-3 text-center mt-10'>
             <div>
               <TfiWorld style={{ height: 140, width: 140, color: "#0092db" }} className='text-center m-auto p-3' />
-              <h2 className='font-bold text-2xl'>Minimalism</h2>
+              <h2 className='font-bold text-2xl'>Minimalistic</h2>
               <span>One chip and power supply, less electronics, more performance</span>
             </div>
             <div>
@@ -140,7 +141,7 @@ export default function Home() {
           running a typical program  with a cycle time of 100 ms. The FPGA in the PLC ONE needs less than 100 ns to process the data. Price includes only production costs of named examples.</div>
 
         <div className='mt-5 text-stone-500 hover:text-stone-100'>
-          <a href="/contact" >Contact / Impressum</a>
+          <Link href="/contact" >Contact / Impressum</Link>
         </div>
         <div className='my-5'>Copyright © 2022 PLC-ONE.net</div>
       </footer>

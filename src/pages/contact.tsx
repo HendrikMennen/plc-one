@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import { AiOutlineDownCircle } from 'react-icons/ai';
 import { RiPlantLine} from 'react-icons/ri';
 import { TfiWorld} from 'react-icons/tfi';
+import Link from 'next/link';
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Contact() {
@@ -11,9 +12,9 @@ export default function Contact() {
         <title>PLC-ONE Contact</title>
         <div className='container m-auto text-white mb-24'>
         <header className='h-32 w-full flex flex-column'>
-          <a href='/'>
-            <Image src={"/PLC_ONE_L_F.png"} alt='PLC Logo' className="mt-10" width={260} height={150} />
-          </a>
+          <Link href='/'>
+            <Image src={'/PLC_ONE_L_F.png'} alt='PLC Logo' className='mt-10' width={260} height={150} />
+          </Link>
         </header>
       <div className='m-auto mt-10 text-xl'>
           <h2 className='text-3xl font-bold mt-10'>Contact</h2>
@@ -109,11 +110,11 @@ You can contact a regulatory authority at any time with a complaint, such as the
 
 Embedded YouTube videos
 Nature and purpose of processing:
-On some of our websites, we embed YouTube videos. The respective plug-ins are operated by YouTube, LLC, 901 Cherry Ave., San Bruno, CA 94066, USA (hereafter "YouTube"). When you visit a page with the YouTube plug-in, it will connect to YouTube's servers. It tells YouTube which pages you visit. If you are logged in to your YouTube account, YouTube may personally associate your browsing behavior with you. This can be prevented by logging out of your YouTube account beforehand.
+On some of our websites, we embed YouTube videos. The respective plug-ins are operated by YouTube, LLC, 901 Cherry Ave., San Bruno, CA 94066, USA (hereafter YouTube). When you visit a page with the YouTube plug-in, it will connect to YouTubes servers. It tells YouTube which pages you visit. If you are logged in to your YouTube account, YouTube may personally associate your browsing behavior with you. This can be prevented by logging out of your YouTube account beforehand.
 
 If a YouTube video is started, the provider uses cookies that collect information about user behavior.
 
-For more information on the purpose and scope of your data collection and processing through YouTube, please refer to the provider's privacy policy, where you can also find out more about your rights and preferences for privacy (https://policies.google.com/privacy). , Google processes your data in the US and has submitted to the EU-US Privacy Shield https://www.privacyshield.gov/EU-US Framework
+For more information on the purpose and scope of your data collection and processing through YouTube, please refer to the providers privacy policy, where you can also find out more about your rights and preferences for privacy (https://policies.google.com/privacy). , Google processes your data in the US and has submitted to the EU-US Privacy Shield https://www.privacyshield.gov/EU-US Framework
 
 Legal basis:
 The legal basis for the integration of YouTube and the associated data transfer to Google is your consent (Article 6 (1) (a) GDPR).
@@ -124,7 +125,7 @@ The YouTube invocation automatically triggers a connection to Google.
 Storage period and revocation of consent:
 Anyone who has disabled the storage of cookies for the Google Ad program will not have to expect any such cookies when watching YouTube videos. However, YouTube also stores non-personal usage information in other cookies. If you want to prevent this, you must block the storage of cookies in the browser.
 
-Further information on data protection at "YouTube" can be found in the provider's privacy policy at: https://www.google.com/intl/en/policies/privacy/
+Further information on data protection at YouTube can be found in the providers privacy policy at: https://www.google.com/intl/en/policies/privacy/
 
 Third country transfer:
 Google processes your data in the US and has submitted to the EU_US Privacy Shield https://www.privacyshield.gov/EU-US-Framework
