@@ -93,7 +93,7 @@ export default function Home() {
 
         <div className='text-center mt-5 max-w-2xl m-auto mt-24 lg:mt-32'>
           <h2 className='text-4xl font-bold mt-10'>Our Team</h2>
-          <div className='md:grid md:grid-cols-2 text-center mt-10'>
+          <div className='md:grid md:grid-cols-3 text-center mt-10'>
             <div>
               <div className='m-auto md:mt-0' >
                 <Image className='m-auto md:mt-0' src={"/Leon.png"} alt="Modular" height={170} width={170} />
@@ -116,6 +116,18 @@ export default function Home() {
               </div>
               <div>
               <a className='text-stone-500 hover:text-stone-100' href='mailto:lwiegand@plc-one.net'>lwiegand@plc-one.net</a>
+              </div>
+            </div>
+            <div>
+              <div className='m-auto md:mt-0' >
+                <Image className='m-auto md:mt-0' src={"/Ali.png"} alt="Modular" height={170} width={170} />
+              </div>
+              <div className='text-xl mt-2'>Ali Durmaz</div>
+              <div>
+              <a className='text-stone-500 hover:text-stone-100' href='https://www.linkedin.com/in/ali-durmaz-1a0799215/' target='_blank'>LinkedIn</a>
+              </div>
+              <div>
+              <a className='text-stone-500 hover:text-stone-100' href='mailto:adurmaz@plc-one.net'>adurmaz@plc-one.net</a>
               </div>
             </div>
 

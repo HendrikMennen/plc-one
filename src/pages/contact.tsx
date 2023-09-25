@@ -20,8 +20,8 @@ export default function Contact() {
           <h2 className='text-3xl font-bold mt-10'>Contact</h2>
           <div className='text-xl mt-5'>Beier & Wiegand Industrial Gbr</div>
           <a href='mailto:info@plc-one.net'>info@plc-one.net</a>
-          <div>Hornscher Weg 23</div>
-          <div>32657 Lemgo</div>
+          <div>Annengasse 3</div>
+          <div>33034 Brakel</div>
         </div>
 
         <div className='mt-10 text-sm text-justify text-stone-100'>
