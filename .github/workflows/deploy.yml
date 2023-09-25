@@ -41,5 +41,5 @@ jobs:
           server: w01ded81.kasserver.com
           username: w01ded81
           password: ${{ secrets.PLC_ONE_FTP }}
-          local-dir: website
-          server-dir: plc-one.net
+          local-dir: website/
+          server-dir: plc-one.net/
