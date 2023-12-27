@@ -8,12 +8,12 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <main className='px-3 overflow-hidden'>
+    <main className='pt-3 pb-0 m-0 overflow-hidden'>
       <title>PLC-ONE</title>
       <div className='container m-auto text-white mb-24'>
         <header className='h-32 w-full flex flex-column absolute xl:ml-16'>
           <div>
-            <Image src={"/PLC_ONE_L_F.png"} alt='PLC Logo' className="mt-10" width={260} height={150} />
+            <Image src={"/Logo_SVG-ONE-plc.svg"} alt='PLC Logo' className="mt-10" width={260} height={150} />
           </div>
         </header>
 
@@ -100,10 +100,10 @@ export default function Home() {
               </div>
               <div className='text-xl mt-2'>Leon Beier</div>
               <div>
-              <a className='text-stone-500 hover:text-stone-100' href='https://www.linkedin.com/in/leon-beier-55bbb7230/' target='_blank'>LinkedIn</a>
+                <a className='text-stone-500 hover:text-stone-100' href='https://www.linkedin.com/in/leon-beier-55bbb7230/' target='_blank'>LinkedIn</a>
               </div>
               <div>
-              <a className='text-stone-500 hover:text-stone-100' href='mailto:lbeier@plc-one.net'>lbeier@plc-one.net</a>
+                <a className='text-stone-500 hover:text-stone-100' href='mailto:lbeier@plc-one.net'>lbeier@plc-one.net</a>
               </div>
             </div>
             <div>
@@ -112,10 +112,10 @@ export default function Home() {
               </div>
               <div className='text-xl mt-2'>Leo Wiegand</div>
               <div>
-              <a className='text-stone-500 hover:text-stone-100' href='https://www.linkedin.com/in/leo-wiegand-b27aa0272/' target='_blank'>LinkedIn</a>
+                <a className='text-stone-500 hover:text-stone-100' href='https://www.linkedin.com/in/leo-wiegand-b27aa0272/' target='_blank'>LinkedIn</a>
               </div>
               <div>
-              <a className='text-stone-500 hover:text-stone-100' href='mailto:lwiegand@plc-one.net'>lwiegand@plc-one.net</a>
+                <a className='text-stone-500 hover:text-stone-100' href='mailto:lwiegand@plc-one.net'>lwiegand@plc-one.net</a>
               </div>
             </div>
             <div>
@@ -124,10 +124,10 @@ export default function Home() {
               </div>
               <div className='text-xl mt-2'>Ali Durmaz</div>
               <div>
-              <a className='text-stone-500 hover:text-stone-100' href='https://www.linkedin.com/in/ali-durmaz-1a0799215/' target='_blank'>LinkedIn</a>
+                <a className='text-stone-500 hover:text-stone-100' href='https://www.linkedin.com/in/ali-durmaz-1a0799215/' target='_blank'>LinkedIn</a>
               </div>
               <div>
-              <a className='text-stone-500 hover:text-stone-100' href='mailto:adurmaz@plc-one.net'>adurmaz@plc-one.net</a>
+                <a className='text-stone-500 hover:text-stone-100' href='mailto:adurmaz@plc-one.net'>adurmaz@plc-one.net</a>
               </div>
             </div>
 
@@ -143,20 +143,40 @@ export default function Home() {
           </div>
         </div>
 
+        <div className='mt-10 text-center text-sm'>*Compared to a system that uses a Cyclone V FPGA with embedded ARM processor and RTOS which is similar to common PLCs,
+            running a typical program  with a cycle time of 100 ms. The FPGA in the PLC ONE needs less than 100 ns to process the data. Price includes only production costs of named examples.</div>
 
       </div>
 
-      <footer className='container text-white text-center m-auto'>
-
-
-        <div className='mt-5 text-center text-sm'>*Compared to a system that uses a Cyclone V FPGA with embedded ARM processor and RTOS which is similar to common PLCs,
-          running a typical program  with a cycle time of 100 ms. The FPGA in the PLC ONE needs less than 100 ns to process the data. Price includes only production costs of named examples.</div>
-
-        <div className='mt-5 text-stone-500 hover:text-stone-100'>
-          <Link href="/contact" >Contact / Impressum</Link>
+      <div className='bg-white text-black py-5 m-0 shadow-inner shadow-slate-800'>
+        <div className='text-center max-w-2xl m-auto lg:mt-10'>
+          <h2 className='text-4xl font-bold mt-0'>Our Partners</h2>
+          <div className='md:grid md:grid-cols-4 text-center mt-10'>
+            <div>
+              <img className='m-auto md:mt-0' src={"/Partner/Partner1.jpg"} alt="EXIST" />
+            </div>
+            <div>
+              <img className='m-auto md:mt-0' src={"/Partner/Partner2.jpg"} alt="European Union" />
+            </div>
+            <div>
+              <img className='m-auto md:mt-0' src={"/Partner/Partner3.jpg"} alt="Bundesregierung für Wirtschaft und Klimaschutz" />
+            </div>
+            <div>
+              <img className='m-auto md:mt-0' src={"/Partner/Partner4.jpg"} alt="ESF" />
+            </div>
+          </div>
         </div>
-        <div className='my-5'>Copyright © 2022 PLC-ONE.net</div>
-      </footer>
+
+
+        <footer className='container text-center m-auto'>
+
+          <div className='mt-5 text-stone-500 hover:text-stone-100'>
+            <Link href="/contact" >Contact / Impressum</Link>
+          </div>
+
+          <div className='mt-5'>Copyright © 2022 PLC-ONE.net</div>
+        </footer>
+      </div>
     </main>
   )
 }
