@@ -13,7 +13,7 @@ export default function Contact() {
         <div className='container m-auto text-white mb-24'>
         <header className='h-32 w-full flex flex-column'>
           <Link href='/'>
-            <Image src={'/PLC_ONE_L_F.png'} alt='PLC Logo' className='mt-10' width={260} height={150} />
+            <Image src={'/Logo_SVG-ONE-plc.svg'} alt='PLC Logo' className='mt-10' width={260} height={150} />
           </Link>
         </header>
       <div className='m-auto mt-10 text-xl'>
