@@ -100,10 +100,10 @@ export default function Home() {
               </div>
               <div className='text-xl mt-2'>Leon Beier</div>
               <div>
-                <a className='text-stone-500 hover:text-stone-100' href='https://www.linkedin.com/in/leon-beier-55bbb7230/' target='_blank'>LinkedIn</a>
+                <a className='text-stone-300 hover:text-stone-100' href='https://www.linkedin.com/in/leon-beier-55bbb7230/' target='_blank'>LinkedIn</a>
               </div>
               <div>
-                <a className='text-stone-500 hover:text-stone-100' href='mailto:lbeier@plc-one.net'>lbeier@plc-one.net</a>
+                <a className='text-stone-300 hover:text-stone-100' href='mailto:lbeier@plc-one.net'>lbeier@plc-one.net</a>
               </div>
             </div>
             <div>
@@ -112,10 +112,10 @@ export default function Home() {
               </div>
               <div className='text-xl mt-2'>Leo Wiegand</div>
               <div>
-                <a className='text-stone-500 hover:text-stone-100' href='https://www.linkedin.com/in/leo-wiegand-b27aa0272/' target='_blank'>LinkedIn</a>
+                <a className='text-stone-300 hover:text-stone-100' href='https://www.linkedin.com/in/leo-wiegand-b27aa0272/' target='_blank'>LinkedIn</a>
               </div>
               <div>
-                <a className='text-stone-500 hover:text-stone-100' href='mailto:lwiegand@plc-one.net'>lwiegand@plc-one.net</a>
+                <a className='text-stone-300 hover:text-stone-100' href='mailto:lwiegand@plc-one.net'>lwiegand@plc-one.net</a>
               </div>
             </div>
             <div>
@@ -124,10 +124,10 @@ export default function Home() {
               </div>
               <div className='text-xl mt-2'>Ali Durmaz</div>
               <div>
-                <a className='text-stone-500 hover:text-stone-100' href='https://www.linkedin.com/in/ali-durmaz-1a0799215/' target='_blank'>LinkedIn</a>
+                <a className='text-stone-300 hover:text-stone-100' href='https://www.linkedin.com/in/ali-durmaz-1a0799215/' target='_blank'>LinkedIn</a>
               </div>
               <div>
-                <a className='text-stone-500 hover:text-stone-100' href='mailto:adurmaz@plc-one.net'>adurmaz@plc-one.net</a>
+                <a className='text-stone-300 hover:text-stone-100' href='mailto:adurmaz@plc-one.net'>adurmaz@plc-one.net</a>
               </div>
             </div>
 
